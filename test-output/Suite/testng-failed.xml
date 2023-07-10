@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Test:Chrome(failed)" verbose="2">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.LowCabFareTests">
+        <methods>
+          <include name="testClickNextMonthLink"/>
+          <include name="testGetPrice"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="testClickDestinationLink"/>
+          <include name="testClickSourceLink"/>
+          <include name="testClickMinPickerLink"/>
+          <include name="setPage"/>
+          <include name="testClickSearchLink"/>
+          <include name="testSelectSuv"/>
+          <include name="testVisitMakeMyTrip"/>
+          <include name="testHandleModal"/>
+          <include name="testClickOneWayOutstationLink"/>
+          <include name="testClickTimePickerLink"/>
+          <include name="testClickDateSelectorLink"/>
+          <include name="testClickSortLink"/>
+          <include name="testClickCabsLink"/>
+          <include name="testClickHourPickerLink"/>
+          <include name="testClickLowestFare"/>
+          <include name="testClickApplyLink"/>
+          <include name="testEnterDestination"/>
+        </methods>
+      </class> <!-- tests.LowCabFareTests -->
+      <class name="tests.GiftCardTests">
+        <methods>
+          <include name="testVisitMakeMyTrip"/>
+          <include name="testShowError"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="testSelectingCard"/>
+          <include name="testSendingKeys"/>
+          <include name="testSubmitting"/>
+          <include name="setPage"/>
+        </methods>
+      </class> <!-- tests.GiftCardTests -->
+      <class name="tests.BookHotelTests">
+        <methods>
+          <include name="testAdultsNo"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="testHandleModal"/>
+          <include name="testListAdult"/>
+          <include name="setPage"/>
+          <include name="testNavigateBack"/>
+          <include name="testClickHotelBtn"/>
+          <include name="testRoomsNGuest"/>
+          <include name="testVisitMakeMyTrip"/>
+        </methods>
+      </class> <!-- tests.BookHotelTests -->
+    </classes>
+  </test> <!-- Test:Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
