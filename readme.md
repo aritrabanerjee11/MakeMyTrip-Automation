@@ -1,4 +1,4 @@
-# pbazaar
+# MakeMyTrip
 
 Automation test suite for www.makemytrip.com .
 
